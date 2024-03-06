@@ -1,14 +1,18 @@
 Problem: 
 The Mask Detection System aims to build a system that detects whether individuals are wearing masks in images or live video streams. The goal is to enhance public safety by identifying compliance with mask-wearing guidelines, especially during situations like the COVID-19 pandemic. 
+
 Background Information: 
 With the emergence of COVID-19, mask detection systems have become increasingly important in various settings, including public spaces, transportation hubs, and workplaces. These systems typically employ computer vision techniques to analyze images or video frames and identify whether individuals are wearing masks. 
+
 Data and Methods:
 Information about the data:
 The dataset used in this project comprises images categorized into two classes: 'with_mask' and 'without_mask'. Each image represents a person's face either wearing a mask or not wearing a mask. The dataset is collected from various sources, including online repositories and self-generated images.
 Dataset: https://humansintheloop.org/resources/datasets/medical-mask-dataset/
+
 Data Analysis and Visualizations:
 Data Distribution: The dataset contains a total over 6000 images and 20 classes, and we have used only 900 images labeled as 'with_mask' and 900 images labeled as 'without_mask'. This distribution helps understand the class balance and potential biases, also accelerates the processing time.
 Prior to implementing the face mask detection system, we conducted a thorough data analysis to prepare and train a model using our dataset. This crucial step involved assessing the validation accuracy and uncovering underlying patterns within the data. 
+
 Here are several visualizations generated during the data analysis phase:
 
 ![image](https://github.com/Ibranuraliev/adv-prog-final/assets/151869662/d26a7d92-83b0-44ec-872c-afcf2635dc68)
